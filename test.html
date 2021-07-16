@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git 테스트페이지</title>
+    <script src="http://http://mijisky.dothome.co.kr/curriculum/jq/jquer.js"></script>
     <script>
         function abc(){
             alert("test");
         }
+        
+
+        $(function(){
+            $("#btn").click(function(){
+                alert("testsss")
+            })
+        })
     </script>
 </head>
 <body>
     <input type="button" value="클릭" onclick="abc()">
+    <input type="button" value="애니메이션" id="btn">
 </body>
 </html>
