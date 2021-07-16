@@ -7,43 +7,31 @@ $v = date("YmdHis");
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-compatible" content="IE=Edge,chrome=1">
 <title>vue 1일차 vue엔진 및 기본 basic부분</title>
-<!--Vue 엔진-->
-<!--min js와 같은것이다 홈페이지에서 적은건-->
-<!--
-<script src="http://cdn.jsdelivr.net/npm/vue"></script>
-그냥 이렇게 스크립트만 들고오면 엔진 소스를  수정 불가능한거 -->
-<!--이게 js 처럼 원본 파일 수정가능한 원본파일 입니다.-->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script><!--근데 index6 하다 잘못된점 발견 뷰에 연락예정-->
-<!--뷰는 인터넷크롬에서 잘작동하고엣지에선 잘 못한다..-->
-<!--크롬에서 뷰 개발자가 따로있다.Vue.js DevTools for Chrome 구글에서 설치
-사파리 3.이상사용하셔야 뷰가정상적으로..작동
 
-CDN설치:url로 해당 코드를로드하여 출력하는 형태  vue.js
-CLI설치:APP개발시 CLI로제작   cli.vue.js 이건 좀 더 어렵다.
-코드형식도 다르다. cdn을하고 cli를
--->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 </head>
 <body>
     <aside id="ccc" class="ccc">
-        <div id="abc">{{test}}</div><!--{{}}  alrt 나 consol.log 와같은 가상의 변수값을 출력함 -->
+        <div id="abc">{{test}}</div>
         <div id="bbb">{{test2}}</div>
     </aside>
 
     <span id="zzz">{{zz1}}</span>
 </body>
-<!--코드가 일반적으로 하단에 쓴다.-->
+
 <script>
-    let a = new Vue({            //Vue 실행부분 let쓴건 전역함수. let를 안써도 잘된다. let a = funtion(){} a();이거랑같음
-        el:".ccc", //el(Element) :해당 태그 id,class  엘리먼트의약자
-        data:{      //data (인스턴트파트): 가상의 변수를 만들어서 출력하는 파트
+    let a = new Vue({        
+        el:".ccc",
+        data:{     
             test:"Vue메세지 출력 연습",
             test2:"메세지 추가2 연습및 vue테스트"
         }
     });
-    let b = new Vue({//위에(a)가 박살나더래도 b는 잔행된다.           
+    let b = new Vue({          
         el:"#bbb", 
         data:{
-            test:"확장 Vue2입니다." //;를 안찍는다 주의...
+            test:"확장 Vue2입니다."
         }
     });
 
@@ -53,12 +41,7 @@ CLI설치:APP개발시 CLI로제작   cli.vue.js 이건 좀 더 어렵다.
             zz1:"<span>문자인가 태그인가</span>"
     }
     })
-    /*
-    이론!
-    아이디당 하나씩 저렇게 써야합니까?
 
-
-    */
   
 </script>
 </html>
