@@ -31,7 +31,7 @@
 # [Project]
 [x]html&css
 [x]javascript
-[x]jquery
+[ ]jquery
 [x]vue.js
 [x]scss
 [x]database
