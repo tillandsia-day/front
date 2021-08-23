@@ -1,4 +1,4 @@
-![](https://sites.google.com/a/netcmmi.com/share/_/rsrc/1473734124982/img/png/s/star-e01.png)
+![](https://sites.google.com/a/netcmmi.com/share/_/rsrc/1473734124982/img/png/s/star-e01.png, "miji 프로젝트")
 
 #### This mark down~! main_page~!!
 * 프로젝트 1 
