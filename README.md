@@ -29,9 +29,9 @@
 ---
 
 # [Project]
-- [x]html&css
-- [x]javascript
-- [ ]jquery
-- [x]vue.js
-- [x]scss
-- [x]database
+- [x] html&css
+- [x] javascript
+- [ ] jquery
+- [x] vue.js
+- [x] scss
+- [x] database
