@@ -26,3 +26,12 @@
 
 * [ ] 해당 정보를 공용 개발 하시 겠습니까?
 * [x] 해당 정보를 공용 개발 하시 겠습니까?
+---
+
+# [Project]
+[x]html&css
+[x]javascript
+[x]jquery
+[x]vue.js
+[x]scss
+[x]database
