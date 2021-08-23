@@ -1,7 +1,7 @@
 ![](https://sites.google.com/a/netcmmi.com/share/_/rsrc/1473734124982/img/png/s/star-e01.png "miji 프로젝트")
 
 ---
-| 테스트1 | 테스트2 | 테스트3 |
+| 테스트1 |<font style="color:blue"> 테스트2</font> | 테스트3 |
 |----|---|--|
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |
